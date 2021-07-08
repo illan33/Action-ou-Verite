@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#0B3954" Padding="24" CornerRadius="0">
+            <Label Text="Bienvenue sur notre app" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" />
+        </Frame>
+        <Label Text="Action ou Vérité" FontSize="Title" Padding="30,10,30,10" HorizontalTextAlignment="Center"/>
+
+        <Label Text="Créé par 4 cons" 
+               FontSize="16" 
+               Padding="30,0,30,0"
+               HorizontalTextAlignment="Center"/>
+
+        <Label Text="Vicky" 
+               FontSize="16" 
+               Padding="30,0,30,0" 
+               HorizontalOptions="Center"/>
+
+        <Label Text="Jeanne" 
+               FontSize="16" 
+               Padding="30,0,30,0" 
+               HorizontalOptions="Center"/>
+        
+        <Label Text="Benjamin" 
+               FontSize="16" 
+               Padding="30,0,30,0" 
+               HorizontalOptions="Center"/>
+        
+        <Label Text="Illan" 
+               FontSize="16" 
+               Padding="30,0,30,0" 
+               HorizontalOptions="Center"/>
+        
+
+        <Label Text="Ceci est la Version Alpha le but n'étant pas le visuel. Merci d'en prendre compte."
+            FontSize="16" 
+            Padding="30,12,30,12" 
+            HorizontalTextAlignment = "Center"
+            VerticalTextAlignment="Center"
+            BackgroundColor="#C6878F"/>
+
+
+        <Grid VerticalOptions="Start"
+          Margin="10">
+
+            <Button x:Name="Btn_Game"
+                Text="Le jeu est ici " 
+                IsVisible="True"
+                FontAttributes="Bold"
+                Grid.Column="0"
+                Grid.Row="0"
+                Grid.ColumnSpan="3"
+                Clicked="Btn_StartGame_OnClick"
+                />
+
+            <Button x:Name="Btn_Info"
+                Text="Plus D'infos " 
+                IsVisible = "True"
+                Grid.Column = "0"
+                Grid.Row = "1"
+                Grid.ColumnSpan = "3"
+                Clicked = "Btn_Info_OnClick" 
+                />
+                
+            
+            
+        </Grid>
+    </StackLayout>
+
+</ContentPage>
