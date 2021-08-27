@@ -1,0 +1,16 @@
+C:\Users\Megaport\Desktop\Projet Action ou verite\App\App\App\bin\Debug\netstandard2.0\Action ou vérité.deps.json
+C:\Users\Megaport\Desktop\Projet Action ou verite\App\App\App\bin\Debug\netstandard2.0\Action ou vérité.dll
+C:\Users\Megaport\Desktop\Projet Action ou verite\App\App\App\bin\Debug\netstandard2.0\ref\Action ou vérité.dll
+C:\Users\Megaport\Desktop\Projet Action ou verite\App\App\App\bin\Debug\netstandard2.0\Action ou vérité.pdb
+C:\Users\Megaport\Desktop\Projet Action ou verite\App\App\App\obj\Debug\netstandard2.0\Action ou vérité.csproj.AssemblyReference.cache
+C:\Users\Megaport\Desktop\Projet Action ou verite\App\App\App\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Megaport\Desktop\Projet Action ou verite\App\App\App\obj\Debug\netstandard2.0\InfoPage.xaml.g.cs
+C:\Users\Megaport\Desktop\Projet Action ou verite\App\App\App\obj\Debug\netstandard2.0\JoueurPage.xaml.g.cs
+C:\Users\Megaport\Desktop\Projet Action ou verite\App\App\App\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Megaport\Desktop\Projet Action ou verite\App\App\App\obj\Debug\netstandard2.0\Action ou vérité.AssemblyInfoInputs.cache
+C:\Users\Megaport\Desktop\Projet Action ou verite\App\App\App\obj\Debug\netstandard2.0\Action ou vérité.AssemblyInfo.cs
+C:\Users\Megaport\Desktop\Projet Action ou verite\App\App\App\obj\Debug\netstandard2.0\Action ou vérité.csproj.CoreCompileInputs.cache
+C:\Users\Megaport\Desktop\Projet Action ou verite\App\App\App\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Megaport\Desktop\Projet Action ou verite\App\App\App\obj\Debug\netstandard2.0\Action ou vérité.dll
+C:\Users\Megaport\Desktop\Projet Action ou verite\App\App\App\obj\Debug\netstandard2.0\ref\Action ou vérité.dll
+C:\Users\Megaport\Desktop\Projet Action ou verite\App\App\App\obj\Debug\netstandard2.0\Action ou vérité.pdb

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App.JoueurPage"
+             BackgroundImageSource=""
+             >
+
+
+    <ContentPage.Content>
+        <StackLayout IsVisible="True">
+            <Frame BackgroundColor="#0B3954" Padding="24" CornerRadius="0">
+                <Label Text="Définition des joueurs" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" />
+            </Frame>
+
+            <Entry x:Name="newJoueur" Placeholder="Prénom" MaxLength="16" Visual="Default" BackgroundColor="#FFFFFF" Completed="Prénom_Completed"/>
+            
+            <!--Choix Sexe de la personne-->
+            <Label Text="Sexe de la personne :" FontSize="25" FontAttributes="Bold"/>
+            <StackLayout Orientation="Horizontal">
+
+                <Label Text="Homme" 
+                       FontSize="20" 
+                       TextColor ="Black"/>
+                <CheckBox x:Name="CBHomme" 
+                          Color="#0B3954"
+                          CheckedChanged="CBHommeCheckedChanged"/>
+
+                <Label Text="Femme" 
+                       FontSize="20" 
+                       TextColor ="#0B3954"/>
+                <CheckBox x:Name="CBFemme"
+                          Color="#0B3954"
+                          CheckedChanged="CBFemmeCheckedChanged"/>
+
+            </StackLayout>
+            
+            <!--Choix Orientation sexuelle-->
+            <Label Text="Orientation Sexuelle :" FontSize="25" FontAttributes="Bold"/>
+            <StackLayout Orientation="Horizontal">
+                
+                <Label Text="Hétéro" 
+                       FontSize="20" 
+                       TextColor ="Black"/>
+                <CheckBox x:Name="CB_Hétéro" 
+                          Color="#0B3954"/>
+
+                <Label Text="Bi" 
+                       FontSize="20" 
+                       TextColor ="Black"/>
+                <CheckBox x:Name="CB_Bi" 
+                          Color="#0B3954"/>
+          
+                <Label Text="Homo" 
+                       FontSize="20" 
+                       TextColor ="Black"/>
+                <CheckBox x:Name="CB_Homo" 
+                          Color="#0B3954"/>
+                
+            </StackLayout>
+            
+            <Button x:Name="Btn_Valider" Text="Valider" FontSize="20" Padding="0" Margin="0,30,0,0"
+                    Clicked="Btn_Valider_Onclick"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
